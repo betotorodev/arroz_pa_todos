@@ -1,0 +1,25 @@
+.container-header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 53px;
+  background-color: #ccc;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 24px;
+}
