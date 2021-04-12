@@ -1,0 +1,13 @@
+.container {
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.player {
+  position: absolute;
+  top: 0;
+  object-fit: cover;
+}
