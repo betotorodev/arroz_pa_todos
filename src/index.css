@@ -3,8 +3,9 @@
 }
 
 :root {
-  --brand-primary-color: #FEFBF4;
-  --brand-secondary-color: #213b59;
+  --brand-primary-color: #FEFBF3;
+  --brand-secondary-color: #213C5C;
+  --brand-third-color: #BCB9AA;
 }
 
 body {
@@ -35,6 +36,7 @@ li {
 a {
   text-decoration: none;
   color: black;
+  cursor: pointer;
 }
 
 code {
@@ -46,6 +48,10 @@ button {
   text-align: center;
   border: none;
   outline: none;
+}
+
+p {
+  margin: 0;
 }
 
 .LARGE-TEXT {
