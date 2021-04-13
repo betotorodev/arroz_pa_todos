@@ -9,5 +9,12 @@
 .player {
   position: absolute;
   top: 0;
-  object-fit: cover;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  max-width: 100%;
+  width: 100%;
+/*   min-height: 100vh;
+  height: 100%; */
+  object-fit: contain;
 }

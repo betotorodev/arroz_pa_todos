@@ -1,0 +1,77 @@
+.logos-wrap {
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.logos-container {
+  display: block;
+  width: 200%;
+  margin: 70px 0;
+  position: absolute;
+  animation: notInveverse 20s linear infinite;
+}
+
+.logos-container-2 {
+  display: block;
+  width: 200%;
+  margin: 70px 0;
+  position: absolute;
+  animation: inverse 20s linear infinite;
+}
+
+.logos-container:hover,
+.logos-container-2:hover {
+  animation-play-state: paused;
+}
+
+.orb {
+  max-width: 8%;
+  height: auto;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0 3%;
+  float: left;
+  transition: all .2s ease-out;
+  overflow: hidden;
+}
+
+.orb-2 {
+  max-width: 8%;
+  height: auto;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0 4.3%;
+  float: left;
+  transition: all .2s ease-out;
+  overflow: hidden;
+}
+
+.orb img,
+.orb-2 img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.orb:hover,
+.orb-2:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+span {
+  float: left;
+  width: 50%;
+}
+
+@keyframes notInveverse {
+  0% { left: 0; }
+  100% { left: -100%; }
+}
+
+@keyframes inverse {
+  0% { left: -100%; }
+  100% { left: 0; }
+}

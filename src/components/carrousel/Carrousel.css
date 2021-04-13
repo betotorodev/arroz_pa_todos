@@ -1,0 +1,43 @@
+.carrousel-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 8% 3%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0 20px;
+}
+
+.carrousel-images {
+  grid-column: 2 / -1;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.slider {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.container-slider {
+  position: relative;
+  width: 100%;
+}
+
+.buttonBack {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.buttonNext {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
