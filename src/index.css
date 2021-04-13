@@ -1,3 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --brand-primary-color: #FEFBF4;
+  --brand-secondary-color: #213b59;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -7,7 +16,97 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  text-align: center;
+  border: none;
+  outline: none;
+}
+
+.LARGE-TEXT {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.btn {
+  width: 320px;
+  height: 74px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: var(--brand-secondary-color);
+  color: white;
+  cursor: pointer;
+}
+
+.base_line {
+  width: 100%;
+  height: 2px;
+  margin-top: 16px;
+}
+
+.small-title {
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  font-weight: bold;
+}
+
+.line {
+  position: relative;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin-top: 22px;
+  background-color: black;
+}
+
+.line::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  width: 50%;
+  height: 2px;
+  margin-top: 25px;
+  background-color: black;
+}
+
+.line-white {
+  position: relative;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  margin-top: 22px;
+  background-color: white;
+}
+
+.line-white::after {
+  content: "";
+  position: absolute;
+  bottom: -6px;
+  width: 50%;
+  height: 2px;
+  margin-top: 25px;
+  background-color: white;
 }

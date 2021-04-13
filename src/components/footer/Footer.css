@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+}
+
+.footer-socialNetwork {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.footer-legal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  padding: 0 21px;
+}
+
+.footer-legal div {
+  display: flex;
+}
+
+.footer-legal div p:last-child {
+  margin-left: 5px;
+  font-weight: bold;
+}

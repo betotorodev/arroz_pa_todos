@@ -1,0 +1,44 @@
+.container-header {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+header {
+/*   position: sticky;
+  top: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 50px;
+  background-color: transparent;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  margin-left: 24px;
+  transition: all 0.5s;
+}
+
+li:hover {
+  color: var(--brand-primary-color);
+}
+
+.image-container {
+  width: 100px;
+}
+
+.image-container img {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.image-container img:hover {
+  background-color: var(--brand-primary-color);
+}
