@@ -7,6 +7,7 @@ import {
 import { Home } from './pages/Home/home'
 import { Contact } from './pages/Contact/contact'
 const About = React.lazy(() => import('./pages/About/about'));
+const Donations = React.lazy(() => import('./pages/Donations/donations'));
 
 function App() {
   return (
@@ -16,12 +17,14 @@ function App() {
             <Home />
           </Route>
           <Route path="/nosotros">
-          <Suspense fallback={null}>
-            <About />
-          </Suspense>
+            <Suspense fallback={null}>
+              <About />
+            </Suspense>
           </Route>
           <Route path="/donaciones">
-            <Contact />
+            <Suspense fallback={null}>
+              <Donations />
+            </Suspense>
           </Route>
           <Route path="/aliados">
             <Contact />

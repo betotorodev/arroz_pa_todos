@@ -5,9 +5,9 @@ export const Header = () => {
   return (
     <div className="container-header">
       <header>
-        <div className="image-container">
+        <Link to="/" className="image-container">
           <img src="https://i.imgur.com/LVJ7Sdt.png" alt="logo"/>
-        </div>
+        </Link>
         <ul>
           <Link to="/nosotros">
             <li>nosotros</li>

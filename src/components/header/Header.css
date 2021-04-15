@@ -6,8 +6,6 @@
 }
 
 header {
-/*   position: sticky;
-  top: 0; */
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -16,21 +14,21 @@ header {
   background-color: transparent;
 }
 
-ul {
+header ul {
   display: flex;
 }
 
-li {
+header ul li {
   margin-left: 24px;
   transition: all 0.5s;
 }
 
-li:hover {
+header ul li:hover {
   color: var(--brand-primary-color);
 }
 
 .image-container {
-  width: 100px;
+  width: 200px;
 }
 
 .image-container img {
