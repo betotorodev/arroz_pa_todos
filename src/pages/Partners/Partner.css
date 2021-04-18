@@ -1,0 +1,23 @@
+.introduction-description-container .text {
+  grid-column: 3 / -1;
+  align-self: flex-end;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--brand-secondary-color);
+}
+
+.wrap-partners {
+  grid-column: 3 / -1;
+  align-self: flex-end;
+}
+
+.text-partners {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 1em 0;
+}
+
+.partners-container {
+  max-width: 100%;
+  min-height: 100vh;
+}

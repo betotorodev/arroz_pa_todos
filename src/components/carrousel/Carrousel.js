@@ -1,12 +1,10 @@
-import { useState } from 'react'
-import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image, ImageWithZoom, ButtonPlay } from 'pure-react-carousel'
+import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image } from 'pure-react-carousel'
 import { useGetImages } from '../../hooks/useGetImages'
 
 import './Carrousel.css'
 import 'pure-react-carousel/dist/react-carousel.es.css'
 
 export const Carrousel = () => {
-  const [slide, setSlide] = useState(0)
   const { images } = useGetImages()
   return (
     <section className="carrousel-container">
