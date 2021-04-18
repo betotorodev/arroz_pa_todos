@@ -15,7 +15,7 @@ export const Header = () => {
           <Link to="/donaciones">
             <li>donaciones</li>
           </Link>
-          <Link to="/donaciones">
+          <Link to="/aliados">
             <li>aliados</li>
           </Link>
           <Link to="/contacto">

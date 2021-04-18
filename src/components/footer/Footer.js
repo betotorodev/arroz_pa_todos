@@ -1,10 +1,11 @@
 import './Footer.css'
 
 export const Footer = () => {
+  const image = 'https://image.flaticon.com/icons/png/512/87/87390.png'
   return (
     <footer>
       <div className="footer-socialNetwork">
-        <img src="" alt="Instagram"/>
+        <img src={image} alt="Instagram"/>
       </div>
       <div className="footer-legal">
         <div>

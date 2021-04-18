@@ -3,6 +3,11 @@ footer {
   width: 100%;
   height: 100px;
   background-color: var(--brand-primary-color);
+  transition: all 0.5s;
+}
+
+footer:hover {
+  box-shadow: -3px 5px 8px rgba(62, 61, 61, 0.5);
 }
 
 .footer-socialNetwork {
@@ -11,6 +16,11 @@ footer {
   justify-content: center;
   width: 30%;
   border-right: 2px solid var(--brand-secondary-color);
+}
+
+.footer-socialNetwork img {
+  width: 50px;
+  height: 50px;
 }
 
 .footer-legal {

@@ -1,0 +1,18 @@
+.restaurants-logos {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.restaurants-logos div {
+  flex: 0 1 250px;
+  width: 100%;
+  height: 250px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.restaurants-logos div img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
