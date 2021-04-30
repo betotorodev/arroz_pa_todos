@@ -1,0 +1,42 @@
+.contact-container {
+  max-width: 100%;
+  /* min-height: 100vh; */
+  height: 100%;
+  padding: 8% 3%;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0 20px;
+  background-color: var(--brand-primary-color);
+}
+
+.contact-info {
+  width: 100%;
+  height: 100%;
+  grid-column: 3 / -1;
+}
+
+.contact-info div {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-info p {
+  font-size: 30px;
+}
+
+.contact-info span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-info a {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.contact-info span:last-child {
+  text-align: end;
+}

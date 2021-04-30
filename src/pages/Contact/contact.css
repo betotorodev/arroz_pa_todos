@@ -1,0 +1,19 @@
+.introduction-description-container .text {
+  grid-column: 3 / -1;
+  align-self: flex-end;
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--brand-secondary-color);
+}
+
+.wrap-contact {
+  grid-column: 3 / -1;
+  align-self: flex-end;
+}
+
+.text-contact {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 1em 0;
+}
+

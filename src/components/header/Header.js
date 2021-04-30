@@ -6,7 +6,7 @@ export const Header = () => {
     <div className="container-header">
       <header>
         <Link to="/" className="image-container">
-          <img src="https://i.imgur.com/LVJ7Sdt.png" alt="logo"/>
+          <img src="https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/Logo+sin+fondo.png" alt="logo"/>
         </Link>
         <ul>
           <Link to="/nosotros">
