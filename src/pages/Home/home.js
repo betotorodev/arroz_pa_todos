@@ -1,4 +1,5 @@
 import './home.css'
+import { useEffect } from 'react'
 import { Video } from '../../components/videoPlayer/video'
 import { Header } from '../../components/header/Header'
 import { Introduction } from '../../components/introduction/home/Introduction'

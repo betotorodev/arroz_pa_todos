@@ -1,16 +1,16 @@
 import './PartnersLogos.css'
-import { useGetImages } from '../../hooks/useGetImages'
+import { useGetLogos } from '../../hooks/useGetLogos'
 import { ShowLogos } from './components/showLogos'
 
 export const PartnersLogos = () => {
-  const {restaurants, supplier, organizations} = useGetImages()
+  const {kitchens, suppliers, organizations} = useGetLogos()
   return (
     <section className="partners-container">
       <span className="small-title">aliados</span>
       <div className="base_line line"></div>
       <section className="logos-wrap">
         <h1 className="LARGE-TEXT">Cocinas</h1>
-        <ShowLogos data={restaurants}/>
+        <ShowLogos data={kitchens}/>
       </section>
       <section className="logos-wrap">
         <h1 className="LARGE-TEXT">Organizaciones</h1>
@@ -18,7 +18,7 @@ export const PartnersLogos = () => {
       </section>
       <section className="logos-wrap">
         <h1 className="LARGE-TEXT">Proveedores</h1>
-        <ShowLogos data={supplier}/>
+        <ShowLogos data={suppliers}/>
       </section>
     </section>
   )

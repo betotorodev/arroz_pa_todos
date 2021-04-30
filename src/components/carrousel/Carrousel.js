@@ -13,7 +13,7 @@ export const Carrousel = () => {
       <div className="carrousel-images">
         <CarouselProvider
           visibleSlides={2}
-          totalSlides={23}
+          totalSlides={25}
           step={2}
           naturalSlideWidth={110}
           naturalSlideHeight={170}
@@ -25,7 +25,7 @@ export const Carrousel = () => {
                 images.map((image, index) => {
                   return (
                   <Slide key={index} index={index}>
-                    <Image className="image" src={`http://localhost:1337${image.image[0].url}`}/>
+                    <Image className="image" src={image.image}/>
                   </Slide>
                   )})
               }

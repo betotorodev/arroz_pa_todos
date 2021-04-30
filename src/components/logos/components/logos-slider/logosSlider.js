@@ -5,9 +5,9 @@ export const LogosSlider = ({images = [], className2 = ''}) => {
     <>
       {
         images.map((image, index) =>(
-          <div key={index} className={className2}>
-            <img src={`http://localhost:1337${image.url}`} alt="logos"/>
-          </div>
+          <a href={image.link} target="_blank" key={index} className={className2}>
+            <img src={image.logo} alt="logos"/>
+          </a>
         ))
       }
     </>

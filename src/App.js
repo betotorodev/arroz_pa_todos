@@ -5,10 +5,10 @@ import {
   Route,
 } from "react-router-dom";
 import { Home } from './pages/Home/home'
-import { Contact } from './pages/Contact/contact'
 const About = React.lazy(() => import('./pages/About/about'));
 const Donations = React.lazy(() => import('./pages/Donations/donations'));
 const Partner = React.lazy(() => import('./pages/Partners/Partners'));
+const Contact = React.lazy(() => import('./pages/Contact/contact'));
 
 function App() {
   return (
@@ -33,7 +33,9 @@ function App() {
             </Suspense>
           </Route>
           <Route path="/contacto">
-            <Contact />
+            <Suspense fallback={null}>
+              <Contact />
+            </Suspense>
           </Route>
         </Switch>
       </Router>

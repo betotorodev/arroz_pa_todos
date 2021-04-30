@@ -1,20 +1,17 @@
-import { useState, useEffect } from 'react'
+import { logosService } from '../services/logosService'
 
 export const useGetLogos = () => {
-  const [logos, setLogos] = useState([])
-  const [news, setNews] = useState([])
-  const [images, setImages] = useState([])
-  useEffect(() => {
-    fetch('http://localhost:1337/logos')
-      .then(data => data.json())
-      .then(res => {
-        const newsData = res[3].news
-        const imagesData = res[3].images
-        setLogos(res)
-        setNews(newsData)
-        setImages(imagesData)
-      })
-  }, [])
+  let allLogos = []
 
-  return {logos, news, images}
+  const kitchens = logosService[0].cocinas
+  const organizations = logosService[0].organizaciones
+  const suppliers = logosService[0].proveedores
+
+  allLogos = [...kitchens, ...organizations, ...suppliers]
+
+  const group1 = allLogos.filter(l => l.group === 1)
+  const group2 = allLogos.filter(l => l.group === 2)
+  const group3 = allLogos.filter(l => l.group === 3)
+
+  return { kitchens, organizations, suppliers, group1, group2, group3}
 }

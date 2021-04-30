@@ -3,11 +3,7 @@ import { InfiniteSlider } from './components/infiniteSlider/InfiniteSlider'
 import './Logos.css'
 
 export const Logos = () => {
-  const { logos } = useGetLogos()
-  const group1 = logos[0]
-  const group2 = logos[1]
-  const group3 = logos[2]
-
+  const { group1, group2, group3 } = useGetLogos()
   return (
     <section className="logos">
       <InfiniteSlider logos={group1}/>
