@@ -10,16 +10,16 @@ export const Header = () => {
         </Link>
         <ul>
           <Link to="/nosotros">
-            <li>nosotros</li>
+            <li>Nosotros</li>
           </Link>
           <Link to="/donaciones">
-            <li>donaciones</li>
+            <li>Donaciones</li>
           </Link>
           <Link to="/aliados">
-            <li>aliados</li>
+            <li>Aliados</li>
           </Link>
           <Link to="/contacto">
-            <li>contacto</li>
+            <li>Contacto</li>
           </Link>
         </ul>
       </header>

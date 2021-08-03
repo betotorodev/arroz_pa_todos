@@ -7,7 +7,7 @@ export const Introduction = () => {
       <div className="base_line line"></div>
       <div className="title">
         <h1 className="LARGE-TEXT">¡HAY ARROZ PA’ TODOS!</h1>
-        <h2>Ayúdanos a alimentar a toda la población colombiana que no tiene su comida asegurada.</h2>
+        <p>Ayúdanos a alimentar a toda la población colombiana que no tiene su comida asegurada.</p>
       </div>
       <h1 className="Subtitle LARGE-TEXT">¿Cómo?</h1>
       <div className="base_line line1"></div>

@@ -33,6 +33,13 @@
   top: 50%;
   left: 0;
   transform: translateY(-50%);
+  background: transparent;
+  background-color: var(--brand-primary-color);
+  transition: all 0.5s;
+}
+.buttonBack:hover {
+  background-color: var(--brand-secondary-color);
+  color: var(--brand-primary-color);
 }
 
 .buttonNext {
@@ -40,4 +47,12 @@
   top: 50%;
   right: 0;
   transform: translateY(-50%);
+  background: transparent;
+  background-color: var(--brand-primary-color);
+  transition: all 0.5s;
+}
+
+.buttonNext:hover {
+  background-color: var(--brand-secondary-color);
+  color: var(--brand-primary-color);
 }
