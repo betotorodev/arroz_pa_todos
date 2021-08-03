@@ -6,8 +6,8 @@ export const ShowLogos = ({ data = [] }) => {
       {
         data?.map((item, index) => {
           return (
-            <a href={item.link} target="_blank" key={index}>
-              <img src={item.logo} alt="logos"/>
+            <a href={item.link} target="_blank" rel="noreferrer" key={index}>
+              <img src={item.logo} alt="logos" />
             </a>
           )
         })

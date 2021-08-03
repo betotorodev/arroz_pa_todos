@@ -11,7 +11,7 @@ export const ContactInfo = () => {
           <span>Tel: 313 495 3567</span>
           <span>arrozpatodos@gmail.com</span>
         </div>
-        <p>Si deseas hacer parte de la iniciativa como restaurante aliado, debes cumplir y aceptar los apartados consignados en <a href="">Términos y Condiciones.</a></p>
+        <p>Si deseas hacer parte de la iniciativa como restaurante aliado, debes cumplir y aceptar los apartados consignados en <span>Términos y Condiciones.</span></p>
       </section>
     </section>
   )

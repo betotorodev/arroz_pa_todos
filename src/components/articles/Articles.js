@@ -1,4 +1,3 @@
-import { useGetLogos } from '../../hooks/useGetLogos'
 import { useGetNews } from '../../hooks/useGetNews'
 import { News } from './components/news'
 import './Articles.css'

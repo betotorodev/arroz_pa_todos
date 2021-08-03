@@ -5,8 +5,13 @@ export const Footer = () => {
   const ref = 'https://instagram.com/arrozpatodos?igshid=1cchsvrdeexgc'
   return (
     <footer>
-      <a href={ref} target="_blank" className="footer-socialNetwork">
-        <img src={image} alt="Instagram"/>
+      <a
+        href={ref}
+        target="_blank"
+        rel="noreferrer"
+        className="footer-socialNetwork"
+      >
+        <img src={image} alt="Instagram" />
       </a>
       <div className="footer-legal">
         <div>
