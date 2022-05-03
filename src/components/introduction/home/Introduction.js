@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Introduction.css'
 
 export const Introduction = () => {
@@ -32,7 +33,7 @@ export const Introduction = () => {
       <div className='box-2'>
         <h1>Cocinemos</h1>
         <p className='step'>
-          Queremos repartir +5.000 arroces en la segunda etapa y tú puedes
+          Queremos repartir +10.000 arroces en la segunda etapa y tú puedes
           ayudarnos. Súmate como restaurante o proveedor aliado y trabajemos de
           la mano.
         </p>
@@ -47,7 +48,9 @@ export const Introduction = () => {
           población que necesite nuestra ayuda. Queremos llegar cada día más
           lejos para proteger la seguridad alimentaria de todos.
         </p>
-        <button className='btn'>Cocinemos</button>
+        <Link to='/nosotros' className='btn'>
+          Cocinemos
+        </Link>
       </div>
     </section>
   )
