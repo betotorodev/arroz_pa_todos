@@ -13,7 +13,7 @@ export const HomeHero = () => {
         <header className="hero-description">
           <h1>!Hay arroz pa' todos!</h1>
           <p>Ayúdanos a alimentar a toda la población colombiana que no tiene su comida asegurada.</p>
-          <div>
+          <div className="hero-callToAction">
             <CallToAction type="blue" arrow>Donar ahora</CallToAction>
             <div>
               📞
