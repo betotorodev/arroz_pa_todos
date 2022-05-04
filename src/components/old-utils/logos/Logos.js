@@ -1,4 +1,4 @@
-import { useGetLogos } from '../../hooks/useGetLogos'
+import { useGetLogos } from '../../../hooks/useGetLogos'
 import { InfiniteSlider } from './components/infiniteSlider/InfiniteSlider'
 import './Logos.css'
 
