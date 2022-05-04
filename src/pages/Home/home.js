@@ -1,4 +1,3 @@
-import './home.css'
 import { Video } from '../../components/videoPlayer/video'
 import { Header } from '../../components/header/Header'
 import { Introduction } from '../../components/introduction/home/Introduction'
@@ -10,16 +9,16 @@ import { Footer } from '../../components/footer/Footer'
 export const Home = () => {
   return (
     <>
-      <main>
-        <Header />
+      <Header />
+      {/* <main>
         <div className="wrap" />
         <Video />
-      </main>
-      <Introduction />
+      </main> */}
+      {/* <Introduction />
       <Status />
       <Carrousel />
       <Logos />
-      <Footer />
+      <Footer /> */}
     </>
   )
 }
