@@ -6,9 +6,9 @@ export const HomeHero = () => {
   const {image1} = useGetImages()
   console.log(image1)
   return (
-    <div>
-      <section>
-        <header>
+    <main className="hero">
+      <section className="hero-text">
+        <header className="hero-description">
           <h1>!Hay arroz pa' todos!</h1>
           <p>Ayúdanos a alimentar a toda la población colombiana que no tiene su comida asegurada.</p>
           <div>
@@ -31,6 +31,6 @@ export const HomeHero = () => {
           <img src={image1.image} alt="first image" />
         </figure>
       </section>
-    </div>
+    </main>
   )
 }

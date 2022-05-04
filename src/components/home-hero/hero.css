@@ -1,3 +1,29 @@
+.hero {
+  display: flex;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-description {
+  display: block;
+}
+
+.hero-description h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+
+.hero-description p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
 .bigImage-container {
   height: 80vh;
   max-width: 551px;
