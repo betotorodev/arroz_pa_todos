@@ -1,6 +1,8 @@
 import './hero.css'
 import { Link } from 'react-router-dom'
 import { useGetImages } from '../../hooks/useGetImages'
+import { CallToAction } from '../callToAction/callToActions'
+import { Arrow } from '../arrow/arrow'
 
 export const HomeHero = () => {
   const {image1} = useGetImages()
@@ -12,7 +14,7 @@ export const HomeHero = () => {
           <h1>!Hay arroz pa' todos!</h1>
           <p>Ayúdanos a alimentar a toda la población colombiana que no tiene su comida asegurada.</p>
           <div>
-            <button>Donar ahora</button>
+            <CallToAction type="blue" arrow>Donar ahora</CallToAction>
             <div>
               📞
               <div>

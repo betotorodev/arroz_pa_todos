@@ -67,10 +67,12 @@ button {
   text-align: center;
   border: none;
   outline: none;
+  font-family: 'Glacial-regular';
 }
 
 p {
   margin: 0;
+  font-family: 'Glacial-regular';
 }
 
 /* .LARGE-TEXT {
