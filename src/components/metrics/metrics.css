@@ -1,0 +1,38 @@
+.metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.5rem 0;
+}
+
+.metrics-title {
+  margin-bottom: 2rem;
+}
+
+.metrics h1 {
+  color: var(--brand-text);
+}
+
+.metrics p {
+  color: var(--brand-text);
+}
+
+.metrics-container {
+  display: flex;
+  gap: 10rem;
+}
+
+.metrics-container h1 {
+  color: black;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  font-size: 4.5rem;
+}
+
+.rice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
