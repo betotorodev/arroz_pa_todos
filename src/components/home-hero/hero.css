@@ -50,9 +50,8 @@
 
 .images-container {
   position: relative;
-  height: 80vh;
+  max-height: 700px;
   max-width: 551px;
-  width: 100%;
   margin: 0;
 }
 
