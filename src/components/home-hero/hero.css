@@ -51,7 +51,7 @@
 .images-container {
   position: relative;
   max-height: 700px;
-  max-width: 551px;
+  /* max-width: 551px; */
   margin: 0;
 }
 
@@ -69,9 +69,8 @@
 
 .image1 {
   position: relative;
-  max-width: 312px;
+  max-width: 300px;
   max-height: 237px;
-  background: linear-gradient(0deg, rgba(28, 60, 89, 0.32), rgba(28, 60, 89, 0.32));
 }
 
 .background {
@@ -93,7 +92,7 @@
 
 .image2 {
   position: relative;
-  max-width: 312px;
+  max-width: 300px;
   max-height: 237px;
 }
 
