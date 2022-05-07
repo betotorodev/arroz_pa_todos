@@ -6,11 +6,12 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  padding: 0px 60px;
 }
 
 .hero-description {
   display: block;
+  margin-bottom: 3.5rem;
 }
 
 .hero-description h1 {
@@ -23,12 +24,19 @@
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1.8rem;
+  color: var(--brand-text);
 }
 
 .hero-callToAction {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+}
+
+.hero-footer {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
 }
 
 .bigImage-container {

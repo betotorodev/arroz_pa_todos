@@ -19,8 +19,9 @@
 }
 
 :root {
-  --brand-primary-color: #eee4d6;
   --brand-blue: #1C3C59;
+  --brand-text: #283028;
+  --brand-primary-color: #eee4d6;
   --brand-third-color: #a99c8c;
 }
 
@@ -73,6 +74,10 @@ button {
 p {
   margin: 0;
   font-family: 'Glacial-regular';
+}
+
+b {
+  margin: 0;
 }
 
 /* .LARGE-TEXT {

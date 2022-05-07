@@ -1,0 +1,35 @@
+.contactComponent-container {
+  display: flex;
+  gap: 0.8rem;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  border: 1px solid var(--brand-blue);
+}
+
+.contactComponent-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.2rem;
+}
+
+.contactComponent-info h2 {
+  font-family: 'Glacial-regular';
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--brand-text);
+}
+
+.contactComponent-info p {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--brand-blue);
+  margin: 0;
+}

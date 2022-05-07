@@ -3,6 +3,9 @@ import { Link } from 'react-router-dom'
 import { useGetImages } from '../../hooks/useGetImages'
 import { CallToAction } from '../callToAction/callToActions'
 import { Arrow } from '../arrow/arrow'
+import { ContactComponent } from '../contact-component/contact-component'
+import { LargeArrow } from '../large-arrow/largeArrow'
+import { Instagram } from '../instagram/instagram'
 
 export const HomeHero = () => {
   const {image1} = useGetImages()
@@ -15,17 +18,13 @@ export const HomeHero = () => {
           <p>Ayúdanos a alimentar a toda la población colombiana que no tiene su comida asegurada.</p>
           <div className="hero-callToAction">
             <CallToAction type="blue" arrow>Donar ahora</CallToAction>
-            <div>
-              📞
-              <div>
-                CONTÁCTANOS
-                313 495 3567
-              </div>
-            </div>
+            <ContactComponent />
           </div>
         </header>
-        <footer>
-          Síguenos en ------- 📷
+        <footer className="hero-footer">
+          <small>Síguenos en</small>
+          <LargeArrow />
+          <Instagram />
         </footer>
       </section>
       <section>

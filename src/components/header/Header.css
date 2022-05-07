@@ -8,7 +8,7 @@
   box-shadow: 0px 1px 12px rgba(28, 60, 89, 0.12);
 }
 
-header {
+.menu {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -17,16 +17,16 @@ header {
   background-color: transparent;
 }
 
-header ul {
+.menu ul {
   display: flex;
 }
 
-header ul li {
+.menu ul li {
   margin-left: 49px;
   transition: all 0.5s;
 }
 
-header ul li:hover {
+.menu ul li:hover {
   color: var(--brand-primary-color);
 }
 
