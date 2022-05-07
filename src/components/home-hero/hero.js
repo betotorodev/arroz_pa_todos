@@ -8,8 +8,7 @@ import { LargeArrow } from '../large-arrow/largeArrow'
 import { Instagram } from '../instagram/instagram'
 
 export const HomeHero = () => {
-  const {image1} = useGetImages()
-  console.log(image1)
+  const {image1, image2, image3} = useGetImages()
   return (
     <main className="hero">
       <section className="hero-text">
@@ -27,10 +26,21 @@ export const HomeHero = () => {
           <Instagram />
         </footer>
       </section>
-      <section>
-        <figure className="bigImage-container">
-          <img src={image1.image} alt="first image" />
+      <section className="hero-images">
+        <figure className="images-container">
+          <div className="background"/>
+          <img src={image1.image} alt="chefs" />
         </figure>
+        <div className="small-images">
+          <figure className="image1">
+            <div className="background"/>
+            <img src={image2.image} alt="chefs" />
+          </figure>
+          <div className="image2">
+            <div className="background"/>
+            <img src={image3.image} alt="chefs" />
+          </div>
+        </div>
       </section>
     </main>
   )

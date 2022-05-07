@@ -7,6 +7,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 0px 60px;
+  width: 45%;
 }
 
 .hero-description {
@@ -15,7 +16,7 @@
 }
 
 .hero-description h1 {
-  font-size: 3rem;
+  font-size: 2.3rem;
   font-weight: 700;
   margin-bottom: 1.8rem;
 }
@@ -39,12 +40,65 @@
   gap: 1.8rem;
 }
 
-.bigImage-container {
-  height: 80vh;
-  max-width: 551px;
+/* images */
+
+.hero-images {
+  display: flex;
+  gap: 20px;
+  width: 55%;
 }
 
-.bigImage-container img {
+.images-container {
+  position: relative;
+  height: 80vh;
+  max-width: 551px;
+  width: 100%;
+  margin: 0;
+}
+
+.images-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.small-images {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image1 {
+  position: relative;
+  max-width: 312px;
+  max-height: 237px;
+  background: linear-gradient(0deg, rgba(28, 60, 89, 0.32), rgba(28, 60, 89, 0.32));
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(28, 60, 89, 0.32), rgba(28, 60, 89, 0.32));
+}
+
+.image1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.image2 {
+  position: relative;
+  max-width: 312px;
+  max-height: 237px;
+}
+
+.image2 img {
   width: 100%;
   height: 100%;
   object-fit: cover;

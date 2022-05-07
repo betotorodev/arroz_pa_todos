@@ -80,6 +80,10 @@ b {
   margin: 0;
 }
 
+figure {
+  margin: 0;
+}
+
 /* .LARGE-TEXT {
   font-size: 4em;
   font-weight: bold;
