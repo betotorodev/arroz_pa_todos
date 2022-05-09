@@ -2,10 +2,10 @@ import './hero.css'
 import { Link } from 'react-router-dom'
 import { useGetImages } from '../../hooks/useGetImages'
 import { CallToAction } from '../callToAction/callToActions'
-import { Arrow } from '../arrow/arrow'
+import { Arrow } from '../icons/arrow/arrow'
 import { ContactComponent } from '../contact-component/contact-component'
-import { LargeArrow } from '../large-arrow/largeArrow'
-import { Instagram } from '../instagram/instagram'
+import { LargeArrow } from '../icons/large-arrow/largeArrow'
+import { Instagram } from '../icons/instagram/instagram'
 import Layout from '../../layout'
 
 export const HomeHero = () => {

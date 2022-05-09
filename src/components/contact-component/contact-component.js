@@ -1,5 +1,5 @@
 import React from 'react'
-import { Phone } from '../phone/phone'
+import { Phone } from '../icons/phone/phone'
 import './contact-component.css'
 
 export const ContactComponent = () => {

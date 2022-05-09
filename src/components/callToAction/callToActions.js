@@ -1,5 +1,5 @@
 import React from 'react'
-import { Arrow } from '../arrow/arrow'
+import { Arrow } from '../icons/arrow/arrow'
 
 export const CallToAction = ({ type = 'blue', children, arrow }) => {
   const buttonColor = {
