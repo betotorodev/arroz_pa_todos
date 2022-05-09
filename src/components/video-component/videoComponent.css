@@ -1,0 +1,29 @@
+.video {
+  width: 100%;
+  background-color: var(--brand-beige);
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  padding: 100px 172px;
+}
+
+.video-container section {
+  width: 50%;
+}
+
+.video p, h1 {
+  color: var(--brand-text);
+}
+
+.video h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.video p {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
