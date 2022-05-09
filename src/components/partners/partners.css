@@ -1,0 +1,12 @@
+.partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 6.5rem 0;
+}
+
+
+.partners h1 {
+  font-size: 2.2rem;
+  margin-bottom: -2rem;
+}
