@@ -6,6 +6,11 @@
   position: relative;
 }
 
+.logos-wrap span {
+  display: flex;
+  align-items: center;
+}
+
 .logos-container {
   display: block;
   width: 200%;
@@ -30,7 +35,6 @@
 .orb {
   max-width: 8%;
   height: auto;
-  border-radius: 50px;
   display: inline-block;
   margin: 0 3%;
   float: left;
