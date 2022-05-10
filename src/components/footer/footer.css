@@ -1,0 +1,48 @@
+.footer {
+  width: 100%;
+  background-color: var(--brand-blue);
+  padding: 92px 60px 39px 60px;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-sections-container {
+  padding-bottom: 85px;
+  border-bottom: 1px solid var(--brand-text-white);
+}
+
+.footer h6 {
+  margin-bottom: 26px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--brand-text-white);
+}
+
+.footer small {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--brand-text-white);
+}
+
+.footer-info {
+  display: flex;
+  gap: 100px;
+}
+
+.footer-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.footer-menu ul li {
+  font-size: 14px;
+  color: var(--brand-text-white);
+}
+
+.rights {
+  margin-top: 39px;
+  text-align: center;
+}

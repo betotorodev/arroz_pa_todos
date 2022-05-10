@@ -25,7 +25,7 @@ export const HomeHero = () => {
           <footer className="hero-footer">
             <small>Síguenos en</small>
             <LargeArrow />
-            <Instagram />
+            <Instagram color="#283038" />
           </footer>
         </section>
         <section className="hero-images">

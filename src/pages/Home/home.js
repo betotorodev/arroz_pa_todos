@@ -1,4 +1,5 @@
 import { Donate } from '../../components/donate/donate'
+import { Footer } from '../../components/footer/footer'
 import { Header } from '../../components/header/Header'
 import { HomeHero } from '../../components/home-hero/hero'
 import { Metrics } from '../../components/metrics/metrics'
@@ -18,6 +19,7 @@ export const Home = () => {
       <Partners />
       <Donate />
       <News />
+      <Footer />
     </>
   )
 }
