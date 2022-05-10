@@ -1,0 +1,51 @@
+.donate {
+  width: 100%;
+  padding: 53px 0;
+  background-color: var(--brand-blue);
+}
+
+.donate h1 {
+  margin-bottom: 72px;
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--brand-text-white);
+}
+
+.donate h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: var(--brand-text-white);
+}
+
+.donate p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--brand-text-white);
+}
+
+.donate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.donate-info {
+  display: flex;
+  align-items: center;
+  gap: 137px;
+  margin-bottom: 73px;
+}
+.donate-detail {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+}
+
+.crowdfunding, .donate-callToAction {
+  display: flex;
+  align-items: center;
+}
+
+.donate-callToAction {
+  gap: 1rem;
+}

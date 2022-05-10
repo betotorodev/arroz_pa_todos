@@ -25,7 +25,7 @@ export const CallToAction = ({ type = 'blue', children, arrow }) => {
       backgroundColor: buttonColor[type],
       color: textColor[type],
       lineHeight: '19px',
-      border: `${(type === 'blue' || type === 'transparent') ? 'none' : '1px solid #1C3C59'}`,
+      border: `${(type === 'transparent') ? 'none' : `1px solid ${textColor[type]}`}`,
     }}>
       {children}
       {arrow && <Arrow color={textColor[type]} />}
