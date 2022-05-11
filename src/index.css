@@ -70,6 +70,7 @@ button {
   border: none;
   outline: none;
   font-family: 'Glacial-regular';
+  cursor: pointer;
 }
 
 p {
@@ -84,104 +85,3 @@ b {
 figure {
   margin: 0;
 }
-
-/* .LARGE-TEXT {
-  font-size: 4em;
-  font-weight: bold;
-}
-
-.btn {
-  width: 320px;
-  height: 74px;
-  font-size: 30px;
-  font-weight: bold;
-  background-color: var(--brand-secondary-color);
-  color: white;
-  cursor: pointer;
-}
-
-.base_line {
-  width: 100%;
-  height: 2px;
-  margin-top: 16px;
-}
-
-.small-title {
-  grid-column: 1 / 3;
-  grid-row: 1 / 2;
-  font-weight: bold;
-}
-
-.line {
-  position: relative;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  margin-top: 22px;
-  background-color: var(--brand-third-color);
-}
-
-.line::after {
-  content: '';
-  position: absolute;
-  bottom: -6px;
-  width: 50%;
-  height: 2px;
-  margin-top: 25px;
-  background-color: var(--brand-third-color);
-}
-
-.line-white {
-  position: relative;
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-  margin-top: 22px;
-  background-color: white;
-}
-
-.line-white::after {
-  content: '';
-  position: absolute;
-  bottom: -6px;
-  width: 50%;
-  height: 2px;
-  margin-top: 25px;
-  background-color: white;
-}
-
-.main-description-header {
-  position: relative;
-  max-width: 100vw;
-  width: 100%;
-  max-height: 100vh;
-  height: 100vh;
-  background-image: url('https://i.imgur.com/1uAmM8M.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.blur {
-  width: 100%;
-  height: 100%;
-  backdrop-filter: blur(8px);
-}
-
-.introduction-description-container {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  z-index: 1;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  width: 100%;
-  height: 100%;
-  padding: 8% 50px;
-}
-
-.btn-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
