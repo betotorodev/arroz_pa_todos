@@ -49,3 +49,23 @@
 .donate-callToAction {
   gap: 1rem;
 }
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .donate {
+    padding: 117px 16px;
+  }
+  .donate-info {
+    flex-direction: column;
+    gap: 56px;
+  }
+  .donate-detail {
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+  }
+  .donate-detail div {
+    text-align: center;
+  }
+}
