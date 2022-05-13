@@ -2,3 +2,12 @@
   width: 500px;
   height: 256px;
 }
+
+/* media queries*/
+
+@media (max-width: 768px) {
+  .container {
+    width: auto;
+    height: 176px;
+  }
+}

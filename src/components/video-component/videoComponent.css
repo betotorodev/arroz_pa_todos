@@ -27,3 +27,20 @@
   font-weight: 400;
 }
 
+/* media queries */
+
+@media (max-width: 768px) {
+  .video-container {
+    flex-direction: column;
+    padding: 106px 16px 66px 16px;
+  }
+  .video-container section {
+    width: 100%;
+    margin-top: 64px;
+    text-align: center;
+    order: 2;
+  }
+  .video-player {
+    order: 1;
+  }
+}
