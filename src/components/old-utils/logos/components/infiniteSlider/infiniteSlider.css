@@ -79,3 +79,11 @@ span {
   0% { left: -100%; }
   100% { left: 0; }
 }
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .logos-container {
+    width: 500%;
+  }
+}
