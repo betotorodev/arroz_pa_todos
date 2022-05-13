@@ -32,6 +32,11 @@
   gap: 100px;
 }
 
+.footer-info--secondPart {
+  display: flex;
+  gap: 100px;
+}
+
 .footer-menu {
   display: flex;
   gap: 32px;
@@ -45,4 +50,19 @@
 .rights {
   margin-top: 39px;
   text-align: center;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 44px 16px;
+  }
+  .footer-info {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .footer-info--secondPart {
+    gap: 60px;
+  }
 }

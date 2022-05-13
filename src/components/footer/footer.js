@@ -10,27 +10,29 @@ export const Footer = () => {
         <main className="footer-container">
           <div className="footer-sections-container">
             <section className="footer-info">
-              <div>
+              <section>
                 <h6>arroz pa'todos</h6>
                 <small>arrozpatodos@gmail.com</small>
-              </div>
-              <div>
-                <h6>Enlaces</h6>
-                <div className="footer-menu">
-                  <ul>
-                    <li>Nosotros</li>
-                    <li>Donaciones</li>
-                  </ul>
-                  <ul>
-                    <li>Aliados</li>
-                    <li>Contacto</li>
-                  </ul>
+              </section>
+              <section className="footer-info--secondPart">
+                <div>
+                  <h6>Enlaces</h6>
+                  <div className="footer-menu">
+                    <ul>
+                      <li>Nosotros</li>
+                      <li>Donaciones</li>
+                    </ul>
+                    <ul>
+                      <li>Aliados</li>
+                      <li>Contacto</li>
+                    </ul>
+                  </div>
                 </div>
-              </div>
-              <div>
-                <h6>Redes sociales</h6>
-                <Instagram color="#FFFCF9"/>
-              </div>
+                <div>
+                  <h6>Redes sociales</h6>
+                  <Instagram color="#FFFCF9"/>
+                </div>
+              </section>
             </section>
             <section>
               {/* contacto */}
