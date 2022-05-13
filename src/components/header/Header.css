@@ -54,3 +54,10 @@
 .image-container img:hover {
   background-color: var(--brand-primary-color);
 }
+
+/* media queries */
+@media (max-width: 768px) {
+  .menu {
+    padding: 0 33px 0 0;
+  } 
+}
