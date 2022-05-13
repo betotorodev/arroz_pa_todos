@@ -15,6 +15,7 @@
 
 .metrics p {
   color: var(--brand-text);
+  font-size: 18px;
 }
 
 .metrics-container {
@@ -40,7 +41,14 @@
 /* media queries */
 
 @media screen and (max-width: 1024px) {
+  .metrics {
+    padding: 74px 16px;
+  }
+  .metrics-title {
+    text-align: center;
+  }
   .metrics-container {
+    flex-direction: column;
     gap: 5rem;
   }
 }
