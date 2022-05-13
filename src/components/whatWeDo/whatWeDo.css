@@ -21,4 +21,19 @@
   border-right: 1px solid var(--brand-text-white);
 }
 
+/* media queries */
+
+@media (max-width: 768px) {
+  .reason {
+    flex-direction: column;
+    text-align: center;
+    padding: 54px 16px;
+  }
+  .title {
+    border: none;
+    margin: 0 0 40px 0;
+    padding: 0;
+  }
+}
+
 
