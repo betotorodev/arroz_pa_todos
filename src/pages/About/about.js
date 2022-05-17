@@ -5,6 +5,7 @@ import { AboutHero } from '../../components/about-hero/hero'
 import { AboutUs } from '../../components/aboutUs/aboutUs'
 import { News } from '../../components/new/news'
 import { Community } from '../../components/community/community'
+import { Metrics } from '../../components/metrics/metrics'
 
 export default function About() {
   return (
@@ -14,6 +15,7 @@ export default function About() {
       <AboutUs />
       <News />
       <Community />
+      <Metrics />
       <Footer />
     </>
   )
