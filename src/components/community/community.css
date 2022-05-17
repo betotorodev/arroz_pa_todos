@@ -7,6 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
 }
 
 .community-container h1 {
@@ -41,4 +42,24 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+/* media queries*/
+
+@media (max-width: 768px) {
+  .community {
+    padding: 97px 16px;
+  }
+  .community-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .community-text {
+    text-align: center;
+    align-items: center;
+  }
+  .community-image {
+    width: 343px;
+    height: 176px;
+  }
 }

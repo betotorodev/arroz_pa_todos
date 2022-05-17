@@ -24,9 +24,22 @@
   color: var(--brand-text-white);
 }
 
-  .about-callToAction {
-    display: flex;
-    /* justify-content: center; */
-    align-items: center;
-    gap: 12px;
+.about-callToAction {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* media queries*/
+
+@media (max-width: 768px) {
+  .about-hero {
+    padding: 52px 21px 91px 21px;
   }
+  .about-container {
+    height: auto;
+  }
+  .about-container h1 {
+    font-size: 32px;
+  }
+}

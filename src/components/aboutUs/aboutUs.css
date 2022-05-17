@@ -14,3 +14,14 @@
   font-size: 24px;
   color: var(--brand-text);
 }
+
+/* media queries*/
+
+@media (max-width: 768px) {
+  .aboutUS {
+    padding: 78px 16px;
+  }
+  .aboutUS p { 
+    font-size: 18px;
+  }
+}
