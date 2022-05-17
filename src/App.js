@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Layout from "./layout"
 import { Home } from './pages/Home/home'
-// const About = React.lazy(() => import('./pages/About/about'));
+const About = React.lazy(() => import('./pages/About/about'));
 // const Donations = React.lazy(() => import('./pages/Donations/donations'));
 // const Partner = React.lazy(() => import('./pages/Partners/Partners'));
 // const Contact = React.lazy(() => import('./pages/Contact/contact'));
@@ -18,12 +18,12 @@ function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          {/* <Route path="/nosotros">
+          <Route path="/nosotros">
             <Suspense fallback={null}>
               <About />
             </Suspense>
           </Route>
-          <Route path="/donaciones">
+          {/* <Route path="/donaciones">
             <Suspense fallback={null}>
               <Donations />
             </Suspense>

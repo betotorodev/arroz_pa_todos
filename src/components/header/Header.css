@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 0px 60px;
+  padding: 20px 60px;
 }
 
 .menu ul {
@@ -37,12 +37,12 @@
 }
 
 .logo-container h1 {
-  margin-left: -20px;
+  margin-left: 12px;
   font-size: 1.5rem;
 }
 
 .image-container {
-  width: 150px;
+  width: 38px;
 }
 
 .image-container img {

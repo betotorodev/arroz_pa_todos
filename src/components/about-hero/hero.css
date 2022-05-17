@@ -1,0 +1,32 @@
+.about-hero {
+  padding: 0 200px 0 176px;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 80vh;
+  width: 100%;
+}
+
+.about-container h1 {
+  margin-bottom: 12px;
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--brand-text-white);
+}
+
+.about-container p {
+  margin-bottom: 60px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--brand-text-white);
+}
+
+  .about-callToAction {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 12px;
+  }

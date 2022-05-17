@@ -17,9 +17,9 @@ export const Header = () => {
           <Link to="/">
             <section className="logo-container">
               <div className="image-container">
-                <img src="https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/Logo+sin+fondo.png" alt="logo" />
+                <img src="https://i.imgur.com/oxjBorc.jpeg" alt="logo" />
               </div>
-              <h1>arroz pa' todos</h1>
+              <h1>arroz pa'todos</h1>
             </section>
           </Link>
           {
