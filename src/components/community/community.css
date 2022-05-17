@@ -1,0 +1,44 @@
+.community {
+  padding: 100px 172px;
+  background-color: var(--brand-beige);
+}
+
+.community-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.community-container h1 {
+  font-size: 36px;
+}
+
+.community-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.community-info h6 {
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+
+.community-info p {
+  font-size: 16px;
+}
+
+.community-info h6, p{
+  color: var(--brand-text);
+}
+
+.community-image {
+  width: 501px;
+  height: 256px;
+}
+
+.community-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
