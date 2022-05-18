@@ -16,7 +16,7 @@ export const HomeHero = () => {
         <section className="hero-text">
           <header className="hero-description">
             <h1>!Hay arroz pa' todos!</h1>
-            <p>Ayúdanos a alimentar a toda la población colombiana que no tiene su comida asegurada.</p>
+            <p className="hero-description-p">Ayúdanos a alimentar a toda la población colombiana que no tiene su comida asegurada.</p>
             <div className="hero-callToAction">
               <CallToAction type="blue" arrow>Donar ahora</CallToAction>
               <ContactComponent />

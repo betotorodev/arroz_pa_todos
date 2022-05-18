@@ -13,6 +13,7 @@
 
 .reason p {
   font-size: 1.1rem;
+  color: var(--brand-text-white);
 }
 
 .title {
