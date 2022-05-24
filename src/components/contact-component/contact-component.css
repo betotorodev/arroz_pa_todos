@@ -10,7 +10,6 @@
   width: 44px;
   height: 44px;
   border-radius: 999px;
-  border: 1px solid var(--brand-blue);
 }
 
 .contactComponent-info {
@@ -24,12 +23,10 @@
   font-family: 'Glacial-regular';
   font-size: 0.8rem;
   font-weight: 400;
-  color: var(--brand-text);
 }
 
 .contactComponent-info p {
   font-size: 0.8rem;
   font-weight: 700;
-  color: var(--brand-blue);
   margin: 0;
 }

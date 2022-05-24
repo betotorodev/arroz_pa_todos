@@ -3,19 +3,25 @@ import { Mail } from '../icons/mail/mail'
 import { Phone } from '../icons/phone/phone'
 import './contact-component.css'
 
-export const ContactComponent = ({icon, title, description}) => {
+export const ContactComponent = ({ icon, title, description, color = '#1C3C59' }) => {
   const iconType = {
-    'phone': <Phone />,
+    'phone': <Phone color={color} />,
     'email': <Mail />
   }
   return (
     <section className="contactComponent-container">
-      <div className="phone">
+      <div className="phone" style={{
+        border: `1px solid ${color}`,
+      }}>
         {iconType[icon]}
       </div>
       <div className="contactComponent-info">
-        <h2>{title}</h2>
-        <p>{description}</p>
+        <h2 style={{
+          color: color,
+        }} >{title}</h2>
+        <p style={{
+          color: color,
+        }} >{description}</p>
       </div>
     </section>
   )

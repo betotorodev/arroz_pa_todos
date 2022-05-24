@@ -4,11 +4,10 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import Layout from "./layout"
 import { Home } from './pages/Home/home'
 const About = React.lazy(() => import('./pages/About/about'));
 const Donations = React.lazy(() => import('./pages/Donations/donations'));
-// const Partner = React.lazy(() => import('./pages/Partners/Partners'));
+const Partner = React.lazy(() => import('./pages/Partners/Partners'));
 // const Contact = React.lazy(() => import('./pages/Contact/contact'));
 
 function App() {
@@ -28,12 +27,12 @@ function App() {
               <Donations />
             </Suspense>
           </Route>
-          {/* <Route path="/aliados">
+          <Route path="/aliados">
             <Suspense fallback={null}>
               <Partner />
             </Suspense>
           </Route>
-          <Route path="/contacto">
+          {/* <Route path="/contacto">
             <Suspense fallback={null}>
               <Contact />
             </Suspense>
