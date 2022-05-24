@@ -1,16 +1,21 @@
 import React from 'react'
+import { Mail } from '../icons/mail/mail'
 import { Phone } from '../icons/phone/phone'
 import './contact-component.css'
 
-export const ContactComponent = () => {
+export const ContactComponent = ({icon, title, description}) => {
+  const iconType = {
+    'phone': <Phone />,
+    'email': <Mail />
+  }
   return (
     <section className="contactComponent-container">
       <div className="phone">
-        <Phone />
+        {iconType[icon]}
       </div>
       <div className="contactComponent-info">
-        <h2>CONTÁCTANOS</h2>
-        <p>313 495 3567</p>
+        <h2>{title}</h2>
+        <p>{description}</p>
       </div>
     </section>
   )

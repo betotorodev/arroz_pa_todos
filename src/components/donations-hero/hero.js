@@ -10,18 +10,18 @@ export const DonationsHero = () => {
   const {image1, image2, image3} = useGetImages()
   return (
     <Layout>
-      <main className="hero">
-        <section className="hero-text">
-          <header className="hero-description">
+      <main className="donationsHero">
+        <section className="donationsHero-text">
+          <header className="donationsHero-description">
             <h1>¡Hagamos Vaca!</h1>
-            <p>Aporta la cantidad que desees y ayúdanos a repartir más <br /> de 5.000 arroces en la segunda etapa.</p>
-            <div className="hero-callToAction">
+            <p className="donationsHero-p">Aporta la cantidad que desees y ayúdanos a repartir más <br /> de 5.000 arroces en la segunda etapa.</p>
+            <div className="donationsHero-callToAction">
               <CallToAction type="blue" arrow>Donar ahora</CallToAction>
-              <ContactComponent />
+              <ContactComponent icon="phone" title="CONTÁCTANOS" description="313 495 3567"/>
             </div>
           </header>
         </section>
-        <section className="hero-images">
+        <section className="donationsHero-images">
           <figure className="images-container">
             <div className="background"/>
             <img src={image1.image} alt="chefs" />

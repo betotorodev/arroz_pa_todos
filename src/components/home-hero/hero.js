@@ -19,7 +19,7 @@ export const HomeHero = () => {
             <p className="hero-description-p">Ayúdanos a alimentar a toda la población colombiana que no tiene su comida asegurada.</p>
             <div className="hero-callToAction">
               <CallToAction type="blue" arrow>Donar ahora</CallToAction>
-              <ContactComponent />
+              <ContactComponent icon="phone" title="CONTÁCTANOS" description="313 495 3567"/>
             </div>
           </header>
           <footer className="hero-footer">

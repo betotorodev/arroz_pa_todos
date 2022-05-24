@@ -1,0 +1,41 @@
+.target {
+  padding: 130px 200px;
+  color: var(--brand-text);
+}
+
+.target h1 {
+  margin-bottom: 36px;
+  font-size: 36px;
+  text-align: center;
+  color: var(--brand-text);
+}
+
+.target-description {
+  font-size: 24px;
+  text-align: center;
+  color: var(--brand-text);
+}
+
+.target-contact {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 36px auto 0 auto;
+  width: fit-content;
+}
+
+/* media queries*/
+
+@media (max-width: 768px) {
+  .target {
+    padding: 78px 16px;
+  }
+
+  .target-description {
+    font-size: 18px;
+  }
+
+  .target-contact {
+    flex-direction: column;
+  }
+}

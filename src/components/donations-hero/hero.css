@@ -1,8 +1,8 @@
-.hero {
+.donationsHero {
   display: flex;
 }
 
-.hero-text {
+.donationsHero-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -10,33 +10,34 @@
   width: 60%;
 }
 
-.hero-description {
+.donationsHero-description {
   display: block;
   margin-bottom: 3.5rem;
 }
 
-.hero-description h1 {
+.donationsHero-description h1 {
   font-size: 64px;
   font-weight: 700;
   margin-bottom: 1.8rem;
   color: var(--brand-blue)
 }
 
-.hero-description p {
+.donationsHero-p {
   font-size: 1rem;
   font-weight: 400;
   color: var(--brand-text);
 }
 
-.hero-callToAction {
+.donationsHero-callToAction {
   display: flex;
   align-items: center;
   gap: 1.5rem;
+  margin-top: 36px;
 }
 
 /* images */
 
-.hero-images {
+.donationsHero-images {
   display: flex;
   gap: 20px;
   width: 40%;
@@ -69,31 +70,31 @@
 /* media queries */
 
 @media (max-width: 768px) {
-  .hero {
+  .donationsHero {
     flex-direction: column;
   }
 
-  .hero-text {
+  .donationsHero-text {
     width: 100%;
     order: 2;
     padding: 54px 16px;
   }
 
-  .hero-images {
+  .donationsHero-images {
     width: 100%;
     height: auto;
     order: 1;
   }
 
-  .hero-description {
+  .donationsHero-description {
     text-align: center;
   }
 
-  .hero-description h1 {
+  .donationsHero-description h1 {
     font-size: 36px;
   }
 
-  .hero-callToAction {
+  .donationsHero-callToAction {
     justify-content: center;
   }
 }
