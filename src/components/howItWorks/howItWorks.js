@@ -4,8 +4,8 @@ import './howItWorks.css'
 
 export const HowItWorks = () => {
   return (
-    <Layout>
-      <main className="howItWorks">
+    <main className="howItWorks">
+      <Layout>
         <h1 className="howItWorks-title">¿Cómo funciona?</h1>
         <section className="howItWorks-container">
           <div className="rice">
@@ -25,7 +25,7 @@ export const HowItWorks = () => {
             <p>Repartiremos los arroces con la ayuda logística de organizaciones aliadas.</p>
           </div>
         </section>
-      </main>
-    </Layout>
+      </Layout>
+    </main>
   )
 }

@@ -12,6 +12,7 @@
 
 .howItWorks h1 {
   color: var(--brand-text);
+  text-align: center;
 }
 
 .howItWorks p {
