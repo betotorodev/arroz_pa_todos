@@ -45,7 +45,6 @@
 .orb-2 {
   max-width: 8%;
   height: auto;
-  border-radius: 50px;
   display: inline-block;
   margin: 0 4.3%;
   float: left;
@@ -84,6 +83,9 @@ span {
 
 @media (max-width: 768px) {
   .logos-container {
+    width: 500%;
+  }
+  .logos-container-2 {
     width: 500%;
   }
 }
