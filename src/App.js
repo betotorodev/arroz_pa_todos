@@ -8,7 +8,7 @@ import { Home } from './pages/Home/home'
 const About = React.lazy(() => import('./pages/About/about'));
 const Donations = React.lazy(() => import('./pages/Donations/donations'));
 const Partner = React.lazy(() => import('./pages/Partners/Partners'));
-// const Contact = React.lazy(() => import('./pages/Contact/contact'));
+const TermsAndConditions = React.lazy(() => import('./pages/TermsAndConditions/TermsAndConditions'));
 
 function App() {
   return (
@@ -32,11 +32,11 @@ function App() {
               <Partner />
             </Suspense>
           </Route>
-          {/* <Route path="/contacto">
+          <Route path="/contacto">
             <Suspense fallback={null}>
-              <Contact />
+              <TermsAndConditions />
             </Suspense>
-          </Route> */}
+          </Route>
         </Switch>
       </Router>
   );
