@@ -4,6 +4,7 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
+import ScrollToTop from './hooks/scrollToTop';
 import { Home } from './pages/Home/home'
 const About = React.lazy(() => import('./pages/About/about'));
 const Donations = React.lazy(() => import('./pages/Donations/donations'));
@@ -13,6 +14,7 @@ const Terms = React.lazy(() => import('./pages/Terms/Terms'));
 function App() {
   return (
     <Router>
+        <ScrollToTop />
         <Switch>
           <Route exact path="/">
             <Home />
