@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import Layout from '../../layout'
 import { Instagram } from '../icons/instagram/instagram'
 import './footer.css'
@@ -19,12 +20,17 @@ export const Footer = () => {
                   <h6>Enlaces</h6>
                   <div className="footer-menu">
                     <ul>
-                      <li>Nosotros</li>
-                      <li>Donaciones</li>
+                      <li>
+                        <Link to="/nosotros">Nosotros</Link>
+                      </li>
+                      <li>
+                        <Link to="/donaciones">Donaciones</Link>
+                      </li>
                     </ul>
                     <ul>
-                      <li>Aliados</li>
-                      <li>Contacto</li>
+                      <li>
+                        <Link to="/aliados">Aliados</Link>
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -38,7 +44,7 @@ export const Footer = () => {
               {/* contacto */}
             </section>
           </div>
-          <small className="rights">© 2022 arrozparatodos. Todos los derechos reservados. </small>
+          <small className="rights">© 2022 arrozparatodos. <Link className='rights-terms' to="/terms">Términos y condiciones</Link></small>
         </main>
       </Layout>
     </footer>

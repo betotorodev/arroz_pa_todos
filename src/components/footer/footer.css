@@ -42,7 +42,7 @@
   gap: 32px;
 }
 
-.footer-menu ul li {
+.footer-menu ul a {
   font-size: 14px;
   color: var(--brand-text-white);
 }
@@ -50,6 +50,12 @@
 .rights {
   margin-top: 39px;
   text-align: center;
+}
+
+.rights-terms {
+  color: var(--brand-text-white);
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* media queries */

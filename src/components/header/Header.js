@@ -34,9 +34,6 @@ export const Header = () => {
                 <Link to="/aliados">
                   <li>Aliados</li>
                 </Link>
-                <Link to="/contacto">
-                  <li>Contacto</li>
-                </Link>
               </ul>
               : <div onClick={() => setShowMenu(true)}><Menu /></div>
           }
