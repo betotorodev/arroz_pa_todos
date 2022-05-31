@@ -7,6 +7,7 @@ import { Menu } from "../icons/menu/menu"
 import './Header.css'
 
 export const Header = () => {
+  const title = "Arroz Pa' Todos"
   const isMobile = useLargeBreakpoint()
   const [showMenu, setShowMenu] = useState(false)
   return (
@@ -19,7 +20,7 @@ export const Header = () => {
               <div className="image-container">
                 <img src="https://i.imgur.com/oxjBorc.jpeg" alt="logo" />
               </div>
-              <h1>arroz pa'todos</h1>
+              <h1>{title}</h1>
             </section>
           </Link>
           {

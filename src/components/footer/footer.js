@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="footer-sections-container">
             <section className="footer-info">
               <section>
-                <h6>arroz pa'todos</h6>
+                <h6>Arroz pa' todos</h6>
                 <small>arrozpatodos@gmail.com</small>
               </section>
               <section className="footer-info--secondPart">

@@ -10,7 +10,7 @@ export const HowItWorks = () => {
         <section className="howItWorks-container">
           <div className="rice">
             <h1>01</h1>
-            <p>Puedes aportar la cantidad que desees por medio de Vaki.</p>
+            <p>Puedes aportar la cantidad que desees por medio de Arma tu vaca.</p>
           </div>
           <div className="rice">
             <h1>02</h1>

@@ -14,7 +14,7 @@ export const DonationsHero = () => {
         <section className="donationsHero-text">
           <header className="donationsHero-description">
             <h1>¡Hagamos Vaca!</h1>
-            <p className="donationsHero-p">Aporta la cantidad que desees y ayúdanos a repartir más <br /> de 5.000 arroces en la segunda etapa.</p>
+            <p className="donationsHero-p">Aporta la cantidad que desees y ayúdanos a repartir más <br /> de 15.000 arroces en la tercera etapa.</p>
             <div className="donationsHero-callToAction">
               <CallToAction type="blue" arrow>Donar ahora</CallToAction>
               <ContactComponent icon="phone" title="CONTÁCTANOS" description="313 495 3567"/>
