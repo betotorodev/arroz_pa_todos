@@ -17,6 +17,10 @@
   color: var(--brand-text);
 }
 
+.terms-description h1, h3, h5 {
+  color: var(--brand-text);
+}
+
 .terms-dateUpdated {
   padding: 57px 0 248px 112px;
   font-size: 16px;
