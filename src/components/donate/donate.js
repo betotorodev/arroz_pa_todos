@@ -3,7 +3,9 @@ import Layout from '../../layout'
 import { CallToAction } from '../callToAction/callToActions'
 import { Money } from '../icons/money/money'
 import { Stove } from '../icons/stove/stove'
+import { urlVaca } from '../../services/vacaUrl' 
 import './donate.css'
+import { Link } from 'react-router-dom'
 
 export const Donate = () => {
   return (
@@ -28,8 +30,8 @@ export const Donate = () => {
             </section>
           </article>
           <div className="donate-callToAction">
-            <CallToAction type="white">Donar Ahora</CallToAction>
-            <CallToAction type="blue" arrow>Cómo Donar</CallToAction>
+            <CallToAction type="white" url={urlVaca} target>Donar Ahora</CallToAction>
+            <CallToAction type="blue" arrow url="/donaciones">Cómo Donar</CallToAction>
           </div>
         </div>
       </Layout>

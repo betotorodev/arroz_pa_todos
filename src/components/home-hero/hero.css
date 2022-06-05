@@ -41,6 +41,11 @@
   gap: 1.8rem;
 }
 
+.hero-footer a {
+  display: flex;
+  align-items: center;
+}
+
 .hero-footer small {
   font-size: 1rem;
 }

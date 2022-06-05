@@ -1,0 +1,1 @@
+export const urlVaca = "https://armatuvaca.com/vaca/it143901MNo43025"

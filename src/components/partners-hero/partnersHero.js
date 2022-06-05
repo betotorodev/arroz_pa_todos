@@ -24,7 +24,7 @@ export const PartnersHero = () => {
           <div className="partners-callToAction">
             <h6>¿Quieres sumarte como aliado?</h6>
             <div className="callToAction-container">
-              <CallToAction type="white">Únete como aliado</CallToAction>
+              <CallToAction type="white" url="/aliados">Únete como aliado</CallToAction>
               <ContactComponent icon="phone" title="CONTÁCTANOS" description="313 495 3567" color="white" />
             </div>
           </div>

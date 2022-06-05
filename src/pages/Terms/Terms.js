@@ -16,7 +16,7 @@ export default function Terms() {
               <Text />
             </div>
           </div>
-          <h6 className="terms-dateUpdated">Última actualización: Junio 22, 2021</h6>
+          <h6 className="terms-dateUpdated">Última actualización: Junio 04, 2022</h6>
         </main>
       </Layout>
       <Footer />

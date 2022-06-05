@@ -5,6 +5,7 @@ import { LargeArrow } from '../icons/large-arrow/largeArrow'
 import { Instagram } from '../icons/instagram/instagram'
 import Layout from '../../layout'
 import './hero.css'
+import { urlVaca } from '../../services/vacaUrl'
 
 export const DonationsHero = () => {
   const {image1, image2, image3} = useGetImages()
@@ -16,7 +17,7 @@ export const DonationsHero = () => {
             <h1>¡Hagamos Vaca!</h1>
             <p className="donationsHero-p">Aporta la cantidad que desees y ayúdanos a repartir más <br /> de 15.000 arroces en la tercera etapa.</p>
             <div className="donationsHero-callToAction">
-              <CallToAction type="blue" arrow>Donar ahora</CallToAction>
+              <CallToAction type="blue" arrow url={urlVaca} target>Donar ahora</CallToAction>
               <ContactComponent icon="phone" title="CONTÁCTANOS" description="313 495 3567"/>
             </div>
           </header>

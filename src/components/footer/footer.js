@@ -36,12 +36,11 @@ export const Footer = () => {
                 </div>
                 <div>
                   <h6>Redes sociales</h6>
-                  <Instagram color="#FFFCF9"/>
+                  <a href="https://instagram.com/arrozpatodos?igshid=YmMyMTA2M2Y=" target="_blank" rel="noreferrer">
+                    <Instagram color="#FFFCF9"/>
+                  </a>
                 </div>
               </section>
-            </section>
-            <section>
-              {/* contacto */}
             </section>
           </div>
           <small className="rights">© 2022 arrozparatodos. <Link className='rights-terms' to="/terms">Términos y condiciones</Link></small>

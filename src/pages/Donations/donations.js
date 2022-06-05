@@ -16,7 +16,6 @@ export default function Donations() {
       <DonationsHero />
       <HowItWorks />
       <Target />
-      <Community />
       <Mission />
       <Partners />
       <Footer />

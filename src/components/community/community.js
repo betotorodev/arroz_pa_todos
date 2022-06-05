@@ -21,7 +21,7 @@ export const Community = () => {
               <p>Súmate como restaurante o proveedor aliado.</p>
             </div>
             <div>
-              <CallToAction type="blue" arrow>Conoce más</CallToAction>
+              <CallToAction type="blue" arrow url="/donaciones">Conoce más</CallToAction>
             </div>
           </section>
           <section className="community-image">

@@ -1,4 +1,6 @@
 import React, { useCallback } from 'react'
+import { Link } from 'react-router-dom'
+import { urlVaca } from '../../services/vacaUrl'
 import { CallToAction } from '../callToAction/callToActions'
 import { Close } from '../icons/close/close'
 import './mobile-menu.css'
@@ -17,10 +19,11 @@ export const MobileMenu = ({ close }) => {
         <div className="menu-close" onClick={setShowMenu}>Cerrar <Close /></div>
         <div className="menu-items">
           <ul>
-            <li>Nosotros</li>
-            <li>Donaciones</li>
-            <li>Aliados</li>
-            <li><CallToAction type="blue">Donar ahora</CallToAction></li>
+            <li><Link to="/">Inicio</Link></li>
+            <li><Link to="/nosotros">Nosotros</Link></li>
+            <li><Link to="/donaciones">Donaciones</Link></li>
+            <li><Link to="/aliados">Aliados</Link></li>
+            <li><CallToAction type="blue" url={urlVaca} target>Donar ahora</CallToAction></li>
           </ul>
         </div>
       </header>

@@ -1,6 +1,7 @@
 import React from 'react'
 import { useGetImages } from '../../hooks/useGetImages'
 import Layout from '../../layout'
+import { urlVaca } from '../../services/vacaUrl'
 import { CallToAction } from '../callToAction/callToActions'
 import './hero.css'
 
@@ -21,8 +22,8 @@ export const AboutHero = () => {
           <h1>Nuestra misión es ayudar a la población <br /> colombiana que no tiene su comida <br /> asegurada.</h1>
           <p>Creemos que la suma de pequeñas acciones pueden hacer la diferencia. Juntos podemos <br /> ayudar a muchas familias que no cuentan con acceso a la alimentación.</p>
           <div className="about-callToAction">
-            <CallToAction type="white">Donar Ahora</CallToAction>
-            <CallToAction type="blue" arrow>Cómo donar</CallToAction>
+            <CallToAction type="white" url={urlVaca} target>Donar Ahora</CallToAction>
+            <CallToAction type="blue" arrow url="/donaciones" >Cómo donar</CallToAction>
           </div>
         </section>
       </Layout>
