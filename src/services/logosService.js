@@ -2,108 +2,103 @@ export const logosService = [
   {
     "proveedores": [
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/proveedores/Disen%CC%83o+sin+ti%CC%81tulo+(88).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/acai.png",
         "group": 1,
-        "link": "https://www.federal.co/"
+        "link": "https://www.instagram.com/acairestaurante/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/proveedores/Handdrawn+Circle+Logo+(15).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/altaGracia.png",
         "group": 1,
-        "link": "https://somosplaz.com/"
+        "link": "https://www.instagram.com/lopezygracia/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/proveedores/Handdrawn+Circle+Logo+(7).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/arb.png",
         "group": 1,
-        "link": "https://magra.com.co/"
+        "link": "https://asociacionrecicladoresbogota.org/"
       }
     ],
     "organizaciones": [
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/organizacio%CC%81n/Disen%CC%83o+sin+ti%CC%81tulo+(91).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/arrozFederal.png",
         "group": 1,
-        "link": "https://www.instagram.com/pimpcolombia/?hl=es"
+        "link": "https://www.federal.co/"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/organizacio%CC%81n/Disen%CC%83o+sin+ti%CC%81tulo+(92).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/choriCharrua.png",
         "group": 1,
-        "link": "https://www.cgfm.mil.co/es/tags/comando-de-apoyo-de-accion-integral-y-desarrollo"
+        "link": "https://www.elchoricharrua.com/"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/organizacio%CC%81n/Disen%CC%83o+sin+ti%CC%81tulo+(94).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/deRaiz.png",
         "group": 1,
-        "link": "https://www.tenemosfilo.com/"
+        "link": "https://www.instagram.com/deraiz_cocina_cafe/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/organizacio%CC%81n/Handdrawn+Circle+Logo+(11).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/Ecoworks.png",
         "group": 1,
         "link": "https://ecoworks.com.co/"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/organizacio%CC%81n/Handdrawn+Circle+Logo+(14).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/ejercito.png",
         "group": 2,
-        "link": "https://asociacionrecicladoresbogota.org/"
+        "link": "https://www.ejercito.mil.co/"
       }
     ],
     "cocinas": [
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Disen%CC%83o+sin+ti%CC%81tulo+(93).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/elBoleo.png",
         "group": 2,
-        "link": "https://www.instagram.com/chorilongo/?hl=es"
+        "link": "https://www.instagram.com/elboleopizzas/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Disen%CC%83o+sin+ti%CC%81tulo+(95).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/innato.png",
         "group": 2,
-        "link": "https://www.instagram.com/innatococinaoficial/?hl=es"
+        "link": "https://www.instagram.com/innatococina/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Disen%CC%83o+sin+ti%CC%81tulo+(96).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/laMonferrina.png",
         "group": 2,
-        "link": "http://ismm.com.co/"
+        "link": "https://www.instagram.com/lamonferrina/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Handdrawn+Circle+Logo+(13).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/longos.png",
         "group": 2,
-        "link": "https://www.instagram.com/laleja/?hl=es"
+        "link": "https://www.instagram.com/soylongos/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Handdrawn+Circle+Logo+(16).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/magra.png",
         "group": 2,
-        "link": "https://www.instagram.com/restauranteminimalbogota/?hl=es"
+        "link": "https://www.instagram.com/magra_carniceria/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Handdrawn+Circle+Logo+(18).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/mariano.png",
         "group": 2,
-        "link": "https://www.instagram.com/detalmadre/?hl=es"
+        "link": "https://ismm.edu.co/"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Handdrawn+Circle+Logo+(3).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/minimal.png",
         "group": 3,
-        "link": "https://www.instagram.com/lamonferrina/?hl=es"
+        "link": "https://mini-mal.org/"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Handdrawn+Circle+Logo+(4).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/oculto.png",
         "group": 3,
-        "link": "https://www.instagram.com/chorilongo/?hl=es"
+        "link": "https://www.instagram.com/oculto_bog/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Handdrawn+Circle+Logo+(5).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/pimp.png",
         "group": 3,
-        "link": "https://www.instagram.com/senorarice/?hl=es"
+        "link": "https://www.instagram.com/pimpcolombia/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Handdrawn+Circle+Logo+(6).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/plaz.png",
         "group": 3,
-        "link": "https://www.instagram.com/oculto_bog/?hl=es"
+        "link": "https://www.instagram.com/plazmercado/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Handdrawn+Circle+Logo+(8).png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/rio.png",
         "group": 3,
-        "link": "https://www.instagram.com/gaitancomedor/?hl=es"
-      },
-      {
-        "logo": "https://arroz-pa-todos-images.s3.us-east-2.amazonaws.com/cocinas/Handdrawn+Circle+Logo+(9).png",
-        "group": 3,
-        "link": "https://www.instagram.com/gaba_restaurante/?hl=es"
+        "link": "https://www.instagram.com/rio_saboresyexperiencias/?hl=es-la"
       }
     ]
   }
