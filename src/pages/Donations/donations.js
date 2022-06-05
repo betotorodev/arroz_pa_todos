@@ -1,4 +1,3 @@
-import { Community } from '../../components/community/community'
 import { DonationsHero } from '../../components/donations-hero/hero'
 import { Footer } from '../../components/footer/footer'
 import { Header } from '../../components/header/Header'

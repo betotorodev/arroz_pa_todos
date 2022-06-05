@@ -1,14 +1,12 @@
 import { useGetImages } from '../../hooks/useGetImages'
 import { CallToAction } from '../callToAction/callToActions'
 import { ContactComponent } from '../contact-component/contact-component'
-import { LargeArrow } from '../icons/large-arrow/largeArrow'
-import { Instagram } from '../icons/instagram/instagram'
 import Layout from '../../layout'
 import './hero.css'
 import { urlVaca } from '../../services/vacaUrl'
 
 export const DonationsHero = () => {
-  const {image1, image2, image3} = useGetImages()
+  const {image1} = useGetImages()
   return (
     <Layout>
       <main className="donationsHero">

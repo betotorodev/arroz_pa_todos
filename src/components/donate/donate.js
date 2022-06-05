@@ -5,7 +5,6 @@ import { Money } from '../icons/money/money'
 import { Stove } from '../icons/stove/stove'
 import { urlVaca } from '../../services/vacaUrl' 
 import './donate.css'
-import { Link } from 'react-router-dom'
 
 export const Donate = () => {
   return (

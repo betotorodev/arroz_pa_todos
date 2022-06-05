@@ -3,7 +3,6 @@ import { useGetLogos } from '../../hooks/useGetLogos'
 import { InfiniteSlider } from '../old-utils/logos/components/infiniteSlider/InfiniteSlider'
 import './partners.css'
 import { CallToAction } from '../callToAction/callToActions'
-import { Link } from 'react-router-dom'
 
 export const Partners = () => {
   const { group1 } = useGetLogos()
