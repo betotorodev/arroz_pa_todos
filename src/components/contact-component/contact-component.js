@@ -19,9 +19,9 @@ export const ContactComponent = ({ icon, title, description, color = '#1C3C59' }
         <h2 style={{
           color: color,
         }} >{title}</h2>
-        <p style={{
+        <a href={`${iconType[icon] === 'email' ? `mailto:${description}` : `tel:+57${description}`}`} style={{
           color: color,
-        }} >{description}</p>
+        }} >{description}</a>
       </div>
     </section>
   )
