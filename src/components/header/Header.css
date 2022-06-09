@@ -19,15 +19,15 @@
 
 .menu ul {
   display: flex;
+  gap: 49px;
 }
 
-.menu ul li {
-  margin-left: 49px;
+.menu-options {
   transition: all 0.5s;
 }
 
-.menu ul li:hover {
-  color: var(--brand-blue);
+.menu-options:hover {
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .logo-container {
@@ -49,10 +49,6 @@
   width: 100%;
   cursor: pointer;
   transition: all 0.5s;
-}
-
-.image-container img:hover {
-  background-color: var(--brand-blue);
 }
 
 .active-link li {

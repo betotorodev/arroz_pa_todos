@@ -27,13 +27,13 @@ export const Header = () => {
             !isMobile ?
               <ul>
                 <NavLink to="/nosotros" activeClassName="active-link">
-                  <li>Nosotros</li>
+                  <li className="menu-options">Nosotros</li>
                 </NavLink>
                 <NavLink to="/donaciones" activeClassName="active-link">
-                  <li>Donaciones</li>
+                  <li className="menu-options">Donaciones</li>
                 </NavLink>
                 <NavLink to="/aliados" activeClassName="active-link">
-                  <li>Aliados</li>
+                  <li className="menu-options">Aliados</li>
                 </NavLink>
               </ul>
               : <div onClick={() => setShowMenu(true)}><Menu /></div>
