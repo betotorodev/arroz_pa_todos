@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, NavLink } from "react-router-dom"
 import Layout from "../../layout"
 import { useLargeBreakpoint } from "../../hooks/useMediaQuery"
 import { MobileMenu } from "../mobile-menu/mobile-menu"
@@ -24,17 +24,17 @@ export const Header = () => {
             </section>
           </Link>
           {
-            !isMobile ?  
+            !isMobile ?
               <ul>
-                <Link to="/nosotros">
+                <NavLink to="/nosotros" activeClassName="active-link">
                   <li>Nosotros</li>
-                </Link>
-                <Link to="/donaciones">
+                </NavLink>
+                <NavLink to="/donaciones" activeClassName="active-link">
                   <li>Donaciones</li>
-                </Link>
-                <Link to="/aliados">
+                </NavLink>
+                <NavLink to="/aliados" activeClassName="active-link">
                   <li>Aliados</li>
-                </Link>
+                </NavLink>
               </ul>
               : <div onClick={() => setShowMenu(true)}><Menu /></div>
           }

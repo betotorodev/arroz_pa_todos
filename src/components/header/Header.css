@@ -27,7 +27,7 @@
 }
 
 .menu ul li:hover {
-  color: var(--brand-primary-color);
+  color: var(--brand-blue);
 }
 
 .logo-container {
@@ -52,12 +52,16 @@
 }
 
 .image-container img:hover {
-  background-color: var(--brand-primary-color);
+  background-color: var(--brand-blue);
+}
+
+.active-link li {
+  border-bottom: 2px solid var(--brand-blue);
 }
 
 /* media queries */
 @media (max-width: 768px) {
   .menu {
     padding: 16px 33px;
-  } 
+  }
 }
