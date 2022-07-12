@@ -61,7 +61,7 @@ export const logosService = [
         "link": "https://www.instagram.com/lamonferrina/?hl=es-la"
       },
       {
-        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/longos.png",
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/Longo's.png",
         "group": 2,
         "link": "https://www.instagram.com/soylongos/?hl=es-la"
       },
@@ -99,6 +99,11 @@ export const logosService = [
         "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/rio.png",
         "group": 3,
         "link": "https://www.instagram.com/rio_saboresyexperiencias/?hl=es-la"
+      },
+      {
+        "logo": "https://arroz-pa-todos-logos.s3.us-east-2.amazonaws.com/Sumerce%CC%81.png",
+        "group": 3,
+        "link": "https://www.instagram.com/sumerce_restaurante/?hl=es-la"
       }
     ]
   }

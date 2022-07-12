@@ -9,7 +9,7 @@ export const Metrics = () => {
         <h1 className="metrics-title">Cómo vamos...</h1>
         <section className="metrics-container">
           <div className="rice">
-            <h1>8.506</h1>
+            <h1>8.706</h1>
             <p>Arroces entregados hasta 2021</p>
           </div>
           <div className="rice">
